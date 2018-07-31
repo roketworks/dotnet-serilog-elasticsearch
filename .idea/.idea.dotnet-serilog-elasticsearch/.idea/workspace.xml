@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b9c6c4e7-ea62-409b-b52a-bf05e20644c0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch.csproj" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="appsettings.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+              <folding>
+                <marker date="1532723392742" expanded="false" signature="6:193" ph="..." />
+                <marker date="1532723392742" expanded="true" signature="212:1165" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="239:1163" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="298:361" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="584:693" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="881:1157" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="928:1005" ph="{...}" />
+                <marker date="1532723392742" expanded="true" signature="1022:1081" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+              <folding>
+                <marker date="1532724362576" expanded="false" signature="6:153" ph="..." />
+                <marker date="1532724362576" expanded="true" signature="172:1374" ph="{...}" />
+                <marker date="1532724362576" expanded="true" signature="199:1372" ph="{...}" />
+                <marker date="1532724362576" expanded="true" signature="252:326" ph="{...}" />
+                <marker date="1532724362576" expanded="true" signature="507:1325" ph="{...}" />
+                <marker date="1532724362576" expanded="true" signature="1130:1305" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CorrelationIdLoggerConfigurationExtensions.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/a3/c1142e42/CorrelationIdLoggerConfigurationExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CorrelationIdHeaderEnricher.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/1e/a1b355ef/CorrelationIdHeaderEnricher.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="docker-compose.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValuesController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+              <folding>
+                <marker date="1532724176094" expanded="false" signature="6:79" ph="..." />
+                <marker date="1532724176094" expanded="true" signature="110:806" ph="{...}" />
+                <marker date="1532724176094" expanded="true" signature="215:804" ph="{...}" />
+                <marker date="1532724176094" expanded="true" signature="383:647" ph="{...}" />
+                <marker date="1532724176094" expanded="true" signature="750:798" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/a3/c1142e42/CorrelationIdLoggerConfigurationExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/1e/a1b355ef/CorrelationIdHeaderEnricher.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs" />
+        <option value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.json" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1046" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dotnet-serilog-elasticsearch (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="dotnet-serilog-elasticsearch (1 project)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="dotnet-serilog-elasticsearch" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/git/dotnet-appmetrics-demo/MetricsDemo.sln" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dotnet-serilog-elasticsearch" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b9c6c4e7-ea62-409b-b52a-bf05e20644c0" name="Default" comment="" />
+      <created>1532722954675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532722954675</updated>
+      <workItem from="1532722957138" duration="2011000" />
+      <workItem from="1533062059190" duration="2742000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4753000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32896176" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32896176" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32896176" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Build" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs</url>
+          <line>20</line>
+          <properties documentPath="$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs" initialLine="20">
+            <startOffsets>
+              <startOffset value="546" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="1307" />
+            </endOffsets>
+          </properties>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+          <folding>
+            <marker date="1532723392742" expanded="false" signature="6:193" ph="..." />
+            <marker date="1532723392742" expanded="true" signature="212:1165" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="239:1163" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="298:361" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="584:693" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="881:1157" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="928:1005" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="1022:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <marker date="1532724176094" expanded="false" signature="6:79" ph="..." />
+            <marker date="1532724176094" expanded="true" signature="110:806" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="215:804" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="383:647" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="750:798" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding>
+            <marker date="1532724362576" expanded="false" signature="6:153" ph="..." />
+            <marker date="1532724362576" expanded="true" signature="172:1374" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="199:1372" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="252:326" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="507:1325" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="1130:1305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding>
+            <marker date="1532723392742" expanded="false" signature="6:193" ph="..." />
+            <marker date="1532723392742" expanded="true" signature="212:1165" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="239:1163" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="298:361" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="584:693" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="881:1157" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="928:1005" ph="{...}" />
+            <marker date="1532723392742" expanded="true" signature="1022:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Controllers/ValuesController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+          <folding>
+            <marker date="1532724176094" expanded="false" signature="6:79" ph="..." />
+            <marker date="1532724176094" expanded="true" signature="110:806" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="215:804" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="383:647" ph="{...}" />
+            <marker date="1532724176094" expanded="true" signature="750:798" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dotnet-serilog-elasticsearch/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="26" column="40" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <marker date="1532724362576" expanded="false" signature="6:153" ph="..." />
+            <marker date="1532724362576" expanded="true" signature="172:1374" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="199:1372" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="252:326" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="507:1325" ph="{...}" />
+            <marker date="1532724362576" expanded="true" signature="1130:1305" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/a3/c1142e42/CorrelationIdLoggerConfigurationExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="76" selection-start-line="26" selection-start-column="76" selection-end-line="26" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/37F20BAA-E95F-4382-8D41-4BB79B16FA61/1e/a1b355ef/CorrelationIdHeaderEnricher.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

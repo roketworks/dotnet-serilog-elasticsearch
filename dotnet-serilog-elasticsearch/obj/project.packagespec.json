@@ -1,0 +1,77 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch.csproj",
+    "projectName": "dotnet-serilog-elasticsearch",
+    "projectPath": "/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch.csproj",
+    "outputPath": "/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.1, )",
+          "autoReferenced": true
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "Serilog.AspNetCore": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "Serilog.Enrichers.CorrelationId": {
+          "target": "Package",
+          "version": "[1.0.1, )"
+        },
+        "Serilog.Enrichers.Environment": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Serilog.Exceptions": {
+          "target": "Package",
+          "version": "[4.1.0, )"
+        },
+        "Serilog.Settings.Configuration": {
+          "target": "Package",
+          "version": "[2.6.1, )"
+        },
+        "Serilog.Sinks.Console": {
+          "target": "Package",
+          "version": "[3.1.1, )"
+        },
+        "Serilog.Sinks.Elasticsearch": {
+          "target": "Package",
+          "version": "[6.5.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

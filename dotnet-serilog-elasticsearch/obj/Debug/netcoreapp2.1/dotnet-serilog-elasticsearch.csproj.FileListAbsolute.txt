@@ -1,0 +1,15 @@
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.deps.json
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.runtimeconfig.json
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.runtimeconfig.dev.json
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.dll
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/Web.Api.pdb
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.csprojAssemblyReference.cache
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.csproj.CoreCompileInputs.cache
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.RazorAssemblyInfo.cache
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.RazorAssemblyInfo.cs
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.AssemblyInfoInputs.cache
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.AssemblyInfo.cs
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/dotnet-serilog-elasticsearch.RazorTargetAssemblyInfo.cache
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/Web.Api.dll
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/obj/Debug/netcoreapp2.1/Web.Api.pdb
+/home/mike/RiderProjects/dotnet-serilog-elasticsearch/dotnet-serilog-elasticsearch/bin/Debug/netcoreapp2.1/appsettings.json

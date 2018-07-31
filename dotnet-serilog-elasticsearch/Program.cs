@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Exceptions;
+using Serilog.Sinks.Elasticsearch;
 
-namespace dotnet_serilog_elasticsearch
+namespace Web.Api
 {
     public class Program
     {
@@ -19,6 +16,22 @@ namespace dotnet_serilog_elasticsearch
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .UseSerilog((context, configuration) =>
+                {
+                    configuration.ReadFrom.Configuration(context.Configuration)
+                        .Enrich.WithProperty("Application", "Web.Api")
+                        .Enrich.FromLogContext()
+                        .Enrich.WithMachineName()
+                        .Enrich.WithEnvironmentUserName()
+                        .Enrich.WithExceptionDetails()
+                        .Enrich.WithCorrelationIdHeader()
+                        .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(
+                            new Uri(context.Configuration["elasticsearch:uri"])) 
+                        {
+                            AutoRegisterTemplate = true,
+                            AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv6
+                        });
+                })
                 .UseStartup<Startup>();
     }
 }

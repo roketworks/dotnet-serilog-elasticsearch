@@ -1,20 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace dotnet_serilog_elasticsearch.Controllers
+namespace Web.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private static Random _random = new Random();
+        
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var shouldError = _random.Next(0, 100) > 66; 
+            
+            if (shouldError) 
+                throw new ApplicationException("Some shits going down...");
+            
+            return new string[] {"value1", "value2"};
         }
 
         // GET api/values/5
@@ -22,24 +27,6 @@ namespace dotnet_serilog_elasticsearch.Controllers
         public ActionResult<string> Get(int id)
         {
             return "value";
-        }
-
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
         }
     }
 }
